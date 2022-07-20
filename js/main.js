@@ -199,11 +199,6 @@ if (isMobile2.matches) {
 // кнопка скролла вверх
 // кнопка вверх
 let btn = document.querySelector(".scroll");
-if (window.matchMedia("only screen and (min-width: 480px)").matches) {
-	buttonScrollTopDesktop();
-} else {
-	buttonScrollTopMobile();
-}
 window.addEventListener("resize", () => {
 	if (window.innerWidth < 480) {
 		buttonScrollTopMobile();

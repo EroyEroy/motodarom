@@ -523,6 +523,7 @@ a {
   border: none;
   color: #fff;
   z-index: 999999;
+  display: none;
 }
 .social__lines{
   position: relative;
@@ -650,6 +651,9 @@ a {
     display: none;
   }
   .burger-open{
+    display: block;
+  }
+  .social{
     display: block;
   }
 }
