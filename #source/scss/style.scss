@@ -100,7 +100,7 @@ a {
 .header__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 7px 0;
 }
 .header__list {
@@ -650,9 +650,9 @@ a {
   .header__list{
     display: none;
   }
-  .burger-open{
-    display: block;
-  }
+  // .burger-open{
+  //   display: block;
+  // }
   .social{
     display: block;
   }
